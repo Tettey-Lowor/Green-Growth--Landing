@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.bg{
+    color: #FFFFFF; 
+    background-image: linear-gradient(rgba(10, 124, 16, 0.685), rgba(104, 103, 103, 0.5)), url("assets/Flower\ Pic\ 3.jpg"); 
+    background-position: center; 
+    height: 100vh; 
+    width: 100%; 
+    background-size: cover;
+}
+
+.top-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    padding: 10px;
+}
+
+li{
+    list-style-type:none; 
+    display: inline-block;
+}
+ul {
+    display:flex;
+    gap: 30px;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(241, 207, 207);
+}
+.btn {
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    text-shadow: 0px 0px 0px #732a73;
+    -webkit-box-shadow: 0px 5px 6px #140a14;
+    -moz-box-shadow: 0px 5px 6px #140a14;
+    box-shadow: 0px 5px 6px #140a14;
+    font-family: Courier New;
+    color: #0f020f;
+    font-size: 30px;
+    padding: 3px;
+    background: #f0ebef;
+    border: solid #99d6fa 1px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+  .yes{
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+  }
+  .yes h1{
+    font-size: 3rem;
+  }
+  .header-texts{ 
+    text-align: center; color:rgb(243, 247, 242);
+    padding: 90px 0 30px 0;
+    width: 70%;
+    margin:auto
+
+  }
+   span{
+    font-family: cursive; color: #99d6fa; font: size 34px; font-weight: 700;
+  }
+  .icon{
+    font-family: cursive;
+    font-weight: bold;
+    color: rgb(84, 206, 14);
+  }
+  .header-text p{
+    font-size: 13px;
+  }
+  .about-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .about-text{
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 50%;
+    margin: auto;
+    line-height: 22px;
+    text-align: center;
+  }
+  /* .about-text h3{
+
+  } */
