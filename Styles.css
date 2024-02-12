@@ -100,3 +100,51 @@ a{
   /* .about-text h3{
 
   } */
+  .new-project{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(17, 66, 4);
+  }
+  .new-project-text{
+    padding: 20px;
+    color: white;
+  }
+  .text{
+    text-align: left;
+    padding: 10px 0;
+  }
+  .text h3{
+    padding: 14px 0;
+    color: rgb(67, 110, 3);
+  }
+  img {
+    width: 100%
+  }
+  .img {
+    width: 70%;
+
+  }
+
+  .services {
+    text-align: center;
+    padding: 120px 30px;
+    margin: auto;
+  }
+    .service-items{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 37px;
+      grid-row-gap: 0px;
+      padding: 20px;
+        }
+        
+ .services h2 {
+  padding: 30px 0;
+ }       
+        
+        
+
+  
