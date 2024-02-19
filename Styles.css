@@ -157,13 +157,17 @@ img {
 }
 
 .img {
-  width: 70%;
+  /* width: 70%; */
+  flex: 0 0 40%;
+  /* padding: 20px; */
 
 }
 
 .img img{
-  width: 500px;
-  height: 400px;
+   width: 100%; 
+  height: 500px;
+  display: block;
+  max-width: 100%;
 }
 
 .services {
@@ -210,6 +214,7 @@ padding: 0 100px;
   align-items: center;
   flex-direction: column;
   gap: 20px;
+  
 }
 
 .Products {
@@ -217,6 +222,9 @@ padding: 0 100px;
   text-align: center;
   align-items: center;
   flex-direction: column;
+  background-color: white;
+  color: rgb(15, 14, 14);
+  padding: 50px;
 }
 
 .Product-card img {
@@ -282,6 +290,10 @@ grid-column-gap: 0px;
 grid-row-gap: 0px;
 padding:0 120px;
 gap: 20px;
+background-color: #023808;
+border-radius: 10px;
+padding: 50px;
+color: white;
 }
 .Team-Names h4{
   margin-top: 10px;
@@ -292,6 +304,7 @@ gap: 20px;
   align-items: center;
   flex-direction: column;
   margin: 50px 0;
+  
 }
 
 .Team h2{
@@ -304,12 +317,12 @@ gap: 20px;
   color: white;
 
 }
-.Team-names img{
+.Team-Names img{
   height: 50%;
    width: 90%; 
    border-radius: 50px;
 }
-.Team-names h4{
+.Team-Names h4{
   text-align: center;
   margin-bottom: 50px;
 
