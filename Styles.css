@@ -102,6 +102,8 @@ span {
   font-weight: bold;
   color: rgb(12, 1, 11);
   font-style: italic;
+  width: 200px;
+  height: 150px;
 }
 
 .header-text p {
